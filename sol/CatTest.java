@@ -21,7 +21,7 @@ public class CatTest {
                     new BufferedWriter(new FileWriter(
                             "PATH TO A DIFFERENT, EMPTY FILE B"))) {
 
-      Cat.cat(r1, w1);
+      //Cat.cat(r1, w1);
 
       // set up readers for the two files
       r2 = new BufferedReader(new FileReader("SAME PATH TO FILE A"));
